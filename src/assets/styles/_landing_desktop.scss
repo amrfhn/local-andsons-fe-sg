@@ -1,0 +1,337 @@
+@include mediaLg {
+  .flex {
+    flex-direction: row !important;
+    // height: calc(100vh - 107px);
+    min-height: 800px;
+  }
+
+  .subtitle {
+    font-size: 18px !important;
+  }
+
+  //Landing
+  .landing {
+    .title {
+      font-size: 3.5rem !important;
+    }
+  }
+
+  .flex-wrapper {
+    .header-content {
+      display: flex;
+      width: 100%;
+      .header-content-text {
+        max-width: 430px;
+        // padding-left: 5vw;
+        // padding-right: 0 !important;
+      }
+    }
+
+    .grid {
+      overflow: unset !important;
+      overflow-x: unset !important;
+      grid-template-columns: repeat(13, 3.8vw) !important;
+      padding-left: 3vw !important;
+      .skin-card,
+      .mind-card,
+      .sex-card,
+      .supplements-card,
+      .hair-card {
+        // max-height: 80% !important;
+        transition: opacity 1s ease-in-out;
+      }
+
+      .hair-card,
+      .sex-card,
+      .skin-card,
+      .supplements-card,
+      .mind-card {
+        &:hover {
+          z-index: 5;
+        }
+        &:hover::before {
+          transition: 0.3s;
+          opacity: 1 !important;
+        }
+
+        &:hover .card--title {
+          transition: 0.3s;
+          opacity: 0;
+        }
+
+        &:hover .smear {
+          transition: 0.3s;
+          opacity: 1;
+        }
+
+        &:hover .card__content {
+          transition: 0.3s;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  // .hero {
+  //   grid-template-columns: 6fr 2fr 4fr !important;
+  //   margin-top: -25px;
+
+  //   &__image {
+  //     grid-column: 1 / span 3 !important;
+  //     grid-row: 1 !important;
+  //     width: 60vw;
+  //     max-width: 70rem;
+  //   }
+
+  //   &__description {
+  //     grid-column: 2 / span 2 !important;
+  //     grid-row: 1 !important;
+  //     margin-top: 5vw !important;
+
+  //     &__title {
+  //       font-size: 3rem !important;
+  //       text-align: left;
+  //     }
+  //     &__subtitle {
+  //       text-align: left;
+  //     }
+  //   }
+  // }
+
+  .hair-images,
+  .sex-images,
+  .skin-images,
+  .supplements-images,
+  .mind-images {
+    width: 600px !important;
+  }
+
+  //Hair Section
+  #hair-section {
+    // height: 100vh !important;
+
+    .hair-content {
+      align-self: center;
+      padding-left: 10vw;
+    }
+
+    .abs-container {
+      max-width: 35rem !important;
+      max-height: 35rem !important;
+
+      .pink-boy {
+        max-width: 35rem !important;
+        max-height: 35rem !important;
+      }
+
+      .pink-moist {
+        max-width: 18rem !important;
+        right: -10rem !important;
+        top: -6rem !important;
+      }
+    }
+  }
+
+  //Sex Section
+  #sex-section {
+    // height: 100vh !important;
+
+    .sex-images {
+      padding-left: 10vw !important;
+    }
+
+    .sex-content {
+      align-self: center;
+      padding-left: 6vw !important;
+    }
+
+    .abs-container {
+      max-width: 35rem !important;
+      max-height: 35rem !important;
+
+      .sex-model {
+        max-width: 35rem !important;
+        max-height: 35rem !important;
+      }
+    }
+  }
+
+  //Supplements Section
+  #supplements-section {
+    // height: 100vh !important;
+
+    .supplements-content {
+      align-self: center;
+      padding-left: 10vw;
+    }
+
+    .abs-container {
+      max-width: 35rem !important;
+      max-height: 35rem !important;
+
+      .pink-boy {
+        max-width: 35rem !important;
+        max-height: 35rem !important;
+      }
+
+      .pink-moist {
+        max-width: 18rem !important;
+        right: -10rem !important;
+        top: -6rem !important;
+      }
+    }
+  }
+
+  //Skin Section
+  #skin-section {
+    // height: 100vh;
+
+    .skin-images {
+      padding-left: 9vw;
+    }
+
+    .skin-content {
+      align-self: center;
+      padding-left: 8vw;
+    }
+
+    .abs-container {
+      max-width: 30rem !important;
+      max-height: 30rem !important;
+
+      .skin-model {
+        max-width: 30rem !important;
+        max-height: 30rem !important;
+      }
+    }
+  }
+
+  #mind-section {
+    // height: 100vh;
+
+    .mind-images {
+      padding-left: 10vw;
+    }
+
+    .mind-content {
+      align-self: center;
+      padding-left: 5vw !important;
+    }
+
+    .abs-container {
+      max-width: 35rem !important;
+      max-height: 35rem !important;
+
+      .mind-model {
+        max-width: 35rem !important;
+        max-height: 35rem !important;
+      }
+    }
+  }
+
+  //Feature Section
+  .our-featured {
+    justify-content: center;
+    overflow: initial !important;
+
+    .feature {
+      width: 9vw !important;
+
+      &__img {
+        height: auto !important;
+      }
+
+      &:first-child {
+        margin-top: 2.5rem;
+      }
+
+      &:last-child {
+        margin-top: 4rem;
+      }
+    }
+  }
+
+  //Knowledge Section
+  .knowledge {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  //Contact Section
+  .contact {
+    &__form {
+      width: auto !important;
+      text-align: left !important;
+      padding: 6rem !important;
+    }
+  }
+
+  .btn-submit {
+    justify-content: flex-start !important;
+  }
+
+  .split {
+    gap: 2vw !important;
+  }
+}
+
+.buttonStyle {
+  margin-top: 2rem;
+  display: table;
+  text-transform: uppercase;
+  padding: 1.4rem 4rem;
+  font-size: 14px;
+  letter-spacing: 2px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  font-family: "PublicSansExtraBold", sans-serif;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: transparent;
+    color: black;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    padding: 1rem 2rem;
+  }
+}
+
+@include mediaXL {
+  // .flex-wrapper {
+  //   .header-content {
+  //     max-width: 500px !important;
+  //   }
+  // }
+
+  .flex-wrapper .grid {
+    padding-left: 8vw !important;
+  }
+}
+
+@include mediaIpadLandscape {
+  .navigation {
+    display: block !important;
+  }
+
+  .blog-sticky {
+    display: none !important;
+  }
+
+  .burger-menu {
+    display: none !important;
+  }
+
+  // .hero__description {
+  //   padding: 0 2rem 0 7rem !important;
+  // }
+
+  // .hero__description > * {
+  //   width: 75% !important;
+  // }
+}

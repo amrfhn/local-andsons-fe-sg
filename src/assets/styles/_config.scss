@@ -1,0 +1,209 @@
+//------------------------
+//-----Color Palette------
+//------------------------
+
+//Background Color
+$almond-background: #f0d4cc; //Header Background
+$springwood-background: #f6f7f1; //Landing View
+$catskillwhite-background: #dfebef; //Skin Section Background
+$greenwhite-background: #eaebdf; //Mind Section Background
+$darkgreen-background: #c0c1a3;
+$cinderella-background: #fdebdd; //Hair Section Background
+$potpourri-background: #f5e7e3; //Sex Section Background
+$dbabbf-background: #dbabbf; // Supplements Background
+$white-background: #ffffff; //Other Section Background
+$black-background: #000000; //Black Background
+$sidebar-background: #ed9075;
+
+//Text Color
+$black-text: #000000; //Main Text Color
+$grey-text: #b7b7b7; // grey color
+$apricot-text: #ed9075; //Orange Color
+$bismark-text: #457a86; //Teal Color
+$white-text: #ffffff; //White Color
+$green-text: #DADBCC;
+
+//Others
+$highlight: #faf377; //Yellow Highlight
+$border: #707070; //Border Color For Text Field
+
+// Brand Colors
+$hair-orangedark: #ffb980;
+$hair-orangelight: #f9ebde;
+
+$skin-bluedark: #6a949e;
+$skin-bluelight: #BEDDE4;
+$skin-pinklight: #F6C6CC;
+
+$mind-greendark: #a5a883;
+$mind-greenlight: #e7ebc5;
+
+$sex-pinkdark: #dbacbf;
+$sex-pinklight: #f5e7e3;
+
+$supplements-yellowlight: #feffdd;
+
+$color-sex-dark: #c0b8d3;
+$color-sex-light: #c9c5d9;
+
+//----------------------
+//-----Font Size--------
+//----------------------
+$fontsize-15: 0.9375rem;
+$fontsize-16: 1rem;
+$fontsize-18: 1.125rem;
+$fontsize-20: 1.35rem;
+$medium-typography: 5rem;
+$big-typography: 7.375rem;
+$title: clamp(2.5rem, 2vw, 3.125rem);
+
+//----------------------
+//-----Font Family------
+//----------------------
+@font-face {
+  font-family: HighSummit;
+  src: url("~@/assets/fonts/High-Summit.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: AHAMONO;
+  src: url("~@/assets/fonts/AHAMONO-Monospaced.otf") format("opentype");
+}
+
+@font-face {
+  font-family: PublicSans;
+  src: url("~@/assets/fonts/PublicSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: PublicSansBold;
+  src: url("~@/assets/fonts/PublicSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: PublicSansSemiBold;
+  src: url("~@/assets/fonts/PublicSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: PublicSansExtraBold;
+  src: url("~@/assets/fonts/PublicSans-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: PublicSansBlack;
+  src: url("~@/assets/fonts/PublicSans-Black.ttf") format("truetype");
+}
+
+//Media Query Mixins
+@mixin mediaSm {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaTablet {
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin mediaIpadLandscape {
+  @media screen and (min-width: 1140px) {
+    @content;
+  }
+}
+
+@mixin mediaXL {
+  @media screen and (min-width: 1366px) {
+    @content;
+  }
+}
+
+//Animation KeyFrames
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+
+.fadeUpHair {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+.fadeUpSex {
+  opacity: 0;
+  animation-name: fadeInUpSex;
+  -webkit-animation-name: fadeInUpSex;
+}
+
+.fadeUpMind {
+  opacity: 0;
+  animation-name: fadeInUpMind;
+  -webkit-animation-name: fadeInUpMind;
+}
+
+.fadeUpSkin {
+  opacity: 0;
+  animation-name: fadeInUpSkin;
+  -webkit-animation-name: fadeInUpSkin;
+}
+
+@keyframes fadeInUpHair {
+  from {
+    transform: translate3d(0, 100px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUpSex {
+  from {
+    transform: translate3d(0, 100px, 0);
+  }
+
+  to {
+    transform: translate3d(0, -5vw, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUpSkin {
+  from {
+    transform: translate3d(0, 100px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 2vw, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUpMind {
+  from {
+    transform: translate3d(0, 100px, 0);
+  }
+
+  to {
+    transform: translate3d(0, -3vw, 0);
+    opacity: 1;
+  }
+}

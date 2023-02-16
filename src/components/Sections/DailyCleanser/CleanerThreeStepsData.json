@@ -1,0 +1,19 @@
+[
+  {
+    "image": "/product/sections/Cleanser-All_Skin.jpg",
+    "title": "For all skin types",
+    "content": "Our formula is gentle for even the most sensitive skin types. It’s free from drying sulphates and has a pH of 5.0."
+  },
+  {
+    "image": "/product/sections/Cleanser-Acne.jpg",
+    "title": "Recommended for men with acne prone skin and uneven skin tone",
+    "content":
+      "Formulated with antibacterial and anti-inflammatory ingredients to soothe acne-prone skin and reduce the appearance of enlarged pores."
+  },
+  {
+    "image": "/product/sections/Cleanser-Clear_Skin.jpg",
+    "title": "For clear and radiant skin",
+    "content":
+      "Washing your face regularly removes dead skin cells and bacteria that helps keep your skin hydrated, and can prevent acne and other skin conditions."
+  }
+]

@@ -1,0 +1,39 @@
+$spaceamounts: (8, 10, 12, 14, 16, 20, 28, 32, 48);
+
+$sides: (
+  "": "all",
+  "t": "top",
+  "b": "bottom",
+  "l": "left",
+  "r": "right"
+);
+
+@each $space in $spaceamounts {
+  @each $prefix, $value in $sides {
+    $property: if($prefix == "", "", -#{$value});
+    .m#{$prefix}-#{$space} {
+      margin#{$property}: #{$space}px;
+    }
+    .p#{$prefix}-#{$space} {
+      padding#{$property}: #{$space}px;
+    }
+    @media (min-width: 825px) {
+      .m#{$prefix}-md-#{$space} {
+        margin#{$property}: #{$space}px !important;
+      }
+
+      .p#{$prefix}-md-#{$space} {
+        padding#{$property}: #{$space}px !important;
+      }
+    }
+    @media (min-width: 1024px) {
+      .m#{$prefix}-lg-#{$space} {
+        margin#{$property}: #{$space}px !important;
+      }
+
+      .p#{$prefix}-lg-#{$space} {
+        padding#{$property}: #{$space}px !important;
+      }
+    }
+  }
+}

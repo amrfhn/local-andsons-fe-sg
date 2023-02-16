@@ -1,0 +1,62 @@
+{
+  "members": [
+    {
+      "path": "dr-steven-tucker",
+      "name": "Dr. Steven Tucker",
+      "nameWithShortDesc": "Dr. Steven Tucker",
+      "title": "andSons Medical Advisor",
+      "credentials": "",
+      "shortDescription": "Dr. Steven Tucker is a Health Futurist. He is the Founder and Medical Director of Tucker Medical, a Singapore-based multi-specialty practice that combines both primary care and sub-specialty medicine in Singapore and to patients across South East Asia.",
+      "description": [
+        "Dr. Steven Tucker is a Health Futurist. He is the Founder and Medical Director of Tucker Medical, a Singapore-based multi-specialty practice that combines both primary care and sub-specialty medicine in Singapore and to patients across South East Asia.",
+        "Dr. Tucker also has extensive experience in digital and population health. He was Chief Medical Officer at CXA and previously held consulting and strategic roles at MetLife Asia, the Lumen Lab Innovation Center, and was the founding Global Health Advisor at Singtel. He is a Senior Health Advisor at Beyond Limits AI and a faculty member at the MIT - Singapore Alliance for Research and Technology (SMART) teaching medical innovation, design thinking, and entrepreneurship.",
+        "A self-proclaimed “data-geek,” Dr. Tucker encourages the use of self-tracking, wearables, and especially continuous glucose monitors. Tucker Medical is a leader in personalized medicine, offering genomic tools at every touchpoint across the cancer care continuum, from personal susceptibility testing in patients and families to pharmacogenomics to identify gene-drug interactions through comparative genomics for immunotherapy and targeted therapy.",
+        "As a health futurist, he speaks about the need for more empathetic and creative providers who can work effortlessly with advancing technology. Outside of clinical practice, he is a professional speaker, strategist, and consultant advising start-ups, venture funds, multinationals, and governments on integrating new technologies in health and medicine.",
+        "Dr. Tucker trained in Internal Medicine, Hematology, Oncology, and Stem Cell Transplantation at the UCLA Center for Health Sciences. While at UCLA, he studied molecular biology and joined the UCLA faculty as Assistant Professor of Clinical Medicine in 1999. Dr. Tucker is a Fellow of both the Singapore Academy of Medicine and the American College of Physicians. He has received numerous honors, including an ASCO Merit Award, an NIH Commendation, the UCLA ‘STAR’ Program Award, and a Pew Foundation Fellowship."
+      ],
+      "image": "/doctors/Dr_Steven_Tucker.png",
+      "blogs": [],
+      "meta": {
+        "title": "Consult Dr Steven Tucker via Telehealth",
+        "description": "Consult Dr Steven Tucker via telehealth. He's also trained in Internal Med, Hematology, & Stem Cell Transplantation. Make appt today!"
+      }
+    },
+    {
+      "path": "dr-simon-neo",
+      "name": "Dr. Simon Neo",
+      "nameWithShortDesc": "Dr. Simon Neo, Psychotherapist & Mental Health Counselor",
+      "title": "Psychotherapist",
+      "credentials": "",
+      "shortDescription": "With more than 25 years of expertise in counselling, social and human services, education services, training, and community outreach, Dr. Simon is the founder of The Psychotherapy Clinic and governing faculty member of the Professional School of Psychology. He specialises in Group Psychotherapy.",
+      "description": [
+        "Dr. Simon is a Psychotherapist by training, he specialises in Group Psychotherapy.",
+        "Simon has over 25 years of expertise in corporate training, counselling, social and human services, education, services training, education and community outreach. He is a much sought-after resource speaker, corporate trainer and lecturer, known for his passion, enthusiasm, humour and dedication.",
+        "Simon has conducted workshops on topics as Life Skills, Leadership, Communication Skills, Listening skills, Empathy and Questioning Techniques amongst others in Singapore, Jakarta, Bangkok and Spain. He lectures at private institutions on counselling and psychology modules and grooms future counsellors. He has done work both with Chulalongkorn University and Assumption University of Thailand. In schools, he has conducted workshops on various topics such as parenting, life skills, self awareness, learning styles, self-esteem and job interviews, among others.",
+        "Simon has a private practice known as “The Psychotherapy Clinic” in Singapore. He has worked with a wide variety of individuals and companies, with concerns such as marital issues, relationships, parenting and employee assistance program (EAP). He has also contributed to a research study for randomized controlled trial on STI/HIV/AIDS prevention intervention for adolescents availing of services from a Singapore-based STI clinic."
+      ],
+      "image": "/doctors/Dr_Simon_Neo.png",
+      "blogs": [],
+      "meta": {
+        "title": "Dr. Simon Neo - Psychotherapist & Mental Health Counselor",
+        "description": "Dr Simon Neo is a psychotherapist & mental health counsellor. Group psychotheraphy is his expertise. Join his anonymous support group today!"
+      }
+    },
+    {
+      "path": "dr-chen-ee-song",
+      "name": "Dr. Chen Ee Song",
+      "nameWithShortDesc": "Dr. Chen Ee Song",
+      "title": "andSons Doctor",
+      "credentials": "",
+      "shortDescription": "Dr Chen Ee is a GP based in Singapore who has worked across various acute hospitals, community hospitals and outpatient primary care.",
+      "description": [
+        "Dr Chen Ee is a GP based in Singapore who has worked across various acute hospitals, community hospitals and outpatient primary care. He graduated from University of Aberdeen with Bachelor of Medicine and Bachelor of Surgery (MBChB) and was part of the medical team managing Covid 19 community care facilities in 2020. With experience working in Singapore and the UK, Dr Chen Eee is passionate about tele healthcare solutions and speaks English, Mandarin and Bahasa Malaysia."
+      ],
+      "image": "/doctors/Dr_Chen_Ee_Song.png",
+      "blogs": [],
+      "meta": {
+        "title": "Dr. Chen Ee Song - andSons Doctor",
+        "description": "Dr. Chen Ee is a GP based in Singapore who has worked across various acute hospitals, community hospitals and outpatient primary care."
+      }
+    }
+  ]
+}

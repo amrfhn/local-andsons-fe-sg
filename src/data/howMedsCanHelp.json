@@ -1,0 +1,68 @@
+{
+  "howMedsCanHelp": [
+    {
+      "type": "hair-loss",
+      "title": "How hair loss<br/>medication can help",
+      "list": [
+        {
+          "title": "Hair loss prevention",
+          "description": "Get a head start if male pattern baldness runs in the family. Treatment can take time to work.",
+          "icon": "balding/full-hair.png"
+        },
+        {
+          "title": "Thinning at the crown",
+          "description": "When the growth phase of hair follicles shorten over time, androgenic alopecia can cause bald spots at the crown.",
+          "icon": "balding/bald-spot.png"
+        },
+        {
+          "title": "Receding hairline",
+          "description": "Seeing more forehead as you age? It's related to the shortening of hair follicles' growth phase.",
+          "icon": "balding/receding-hairline.png"
+        },
+        {
+          "title": "Thinning all over",
+          "description": "It's common for hair follicles to close up when you age. It can be slowed down or stopped with the right treatment.",
+          "icon": "balding/thinning.png"
+        }
+      ]
+    },
+    {
+      "type": "ED",
+      "title": "Let's talk about <u>erectile dysfunction</u> (ED).",
+      "image": "smiling-asian-man.jpg",
+      "list": [
+        {
+          "title": "Why does it happen?",
+          "description": "It happens when the penile erection chambers fail to generate and maintain the high pressures needed for a fully hard erection."
+        },
+        {
+          "title": "How common is ED?",
+          "description": "It's more common than you think, and men are more likely to experience ED as they age."
+        },
+        {
+          "title": "Can ED medication help?",
+          "description": "There are prescription medications -- PDE5 inhibitors, that are evidence-based treatments for ED."
+        }
+      ]
+    },
+    {
+      "type": "PE",
+      "title": "What about <u>premature ejaculation</u> (PE)?",
+      "image": "ice-cream-melting.jpg",
+      "list": [
+        {
+          "title": "What is PE?",
+          "description": "When a man has difficulty delaying ejaculations or experience ejaculations that happen under 3 minutes."
+        },
+        {
+          "title": "Why does it happen?",
+          "description": "There are many possible causes of PE -- physical causes, psychological causes or a combination of both."
+        },
+        {
+          "title": "Can PE medication help?",
+          "description": "There are prescription medications which works by inhibiting serotonin transporter to help with delaying ejaculations."
+        }
+      ]
+    }
+  ]
+}

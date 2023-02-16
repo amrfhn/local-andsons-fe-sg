@@ -1,0 +1,74 @@
+stages:
+  - build preproduction
+  - build staging
+  - build
+  - deploy to preproduction
+  - deploy to staging
+  - deploy to production
+
+cache:
+  paths:
+    - node_modules/
+build:
+  stage: build
+  image: node:latest
+  script:
+    - npm install
+    - CI=false npm run build:production
+  artifacts:
+    paths:
+      - dist
+  only:
+    refs:
+      - master
+build preproduction:
+  stage: build preproduction
+  image: node:latest
+  script:
+    - npm install
+    - CI=false npm run build:preproduction
+  artifacts:
+    paths:
+      - dist
+  only:
+    refs:
+      - preproduction
+build staging:
+  stage: build staging
+  image: node:latest
+  script:
+    - npm install
+    - CI=false npm run build:staging
+  artifacts:
+    paths:
+      - dist
+  only:
+    refs:
+      - staging
+deploy to staging:
+  stage: deploy to staging
+  image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+  script:
+    - aws s3 sync dist/ s3://staging.andsons.com.sg
+    - aws cloudfront create-invalidation --distribution-id $AWS_STAGING_DISTRIBUTION_ID --paths "/*"
+  only:
+    refs:
+      - staging
+deploy to preproduction:
+  stage: deploy to preproduction
+  image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+  script:
+    - aws s3 sync dist/ s3://preproduction.andsons.com.sg
+    - aws cloudfront create-invalidation --distribution-id $AWS_PREPRODUCTION_DISTRIBUTION_ID --paths "/*"
+  only:
+    refs:
+      - preproduction
+deploy to production:
+  stage: deploy to production
+  image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+  script:
+    - aws s3 sync dist/ s3://andsons.com.sg
+    - aws cloudfront create-invalidation --distribution-id $AWS_DISTRIBUTION_ID --paths "/*"
+  only:
+    refs:
+      - master

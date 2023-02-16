@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /product/*options
+Disallow: /product/*select
+Disallow: /checkout/*
+
+Sitemap: https://andsons.com.sg/sitemap.xml

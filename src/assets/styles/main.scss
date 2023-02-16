@@ -1,0 +1,214 @@
+// @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "config.scss";
+@import "utilities.scss";
+@import "accordion.scss";
+@import "spacing.scss";
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box; /* Opera/IE 8+ */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  font-size: 16px;
+  max-width: 100vw !important;
+}
+
+body {
+  margin: 0;
+  font-family: "PublicSans", sans-serif;
+  max-width: 100vw !important;
+  // scroll-snap-type: y proximity;
+}
+
+input {
+  font-family: "PublicSans", sans-serif;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+  font-family: "PublicSans", sans-serif;
+}
+
+input[type="text"]:-ms-input-placeholder {
+  font-family: "PublicSans", sans-serif;
+}
+
+input[type="text"]:-moz-placeholder {
+  font-family: "PublicSans", sans-serif;
+}
+
+input[type="text"]::-moz-placeholder {
+  font-family: "PublicSans", sans-serif !important;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  color: initial;
+  outline: none;
+  text-decoration: none;
+}
+
+// ul > li {
+// 	font-family: "PublicSans", sans-serif;
+// 	font-size: $fontsize-16;
+// 	padding-bottom: 5px;
+// 	list-style-type: circle;
+// }
+
+ol,
+ul {
+  margin-left: 2rem;
+}
+
+li > sup {
+  font-family: "PublicSans", sans-serif;
+  font-size: 10px;
+  padding-left: 2px;
+}
+
+mark {
+  background-color: $highlight;
+}
+
+main {
+  position: relative !important;
+}
+
+.floating-logo {
+  position: fixed;
+  left: 30px;
+  background: left / contain no-repeat url("../images/floating_logo.svg");
+  width: 100%;
+  max-width: 30px;
+  height: auto;
+  z-index: 19;
+}
+
+.blog-sticky {
+  text-decoration: none;
+  font-family: "PublicSansBold", sans-serif;
+  display: inline;
+  position: fixed;
+  position: -webkit-sticky;
+  top: 70px;
+  right: 30px;
+  z-index: 19;
+  font-size: 1rem;
+}
+
+.burger-menu {
+  //display: inline;
+  //position: fixed;
+  //top: 75px;
+  //right: 30px;
+  //z-index: 19;
+  cursor: pointer;
+  display: flex;
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.disable-scroll {
+  overflow-y: hidden !important;
+}
+
+.sons-logo {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 80px;
+  height: auto;
+  width: 100%;
+  max-width: 72px;
+  margin-left: 60px;
+  z-index: 10;
+  display: block;
+}
+
+.flex {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+}
+
+.active-section {
+  background-color: $highlight;
+}
+
+.navigation {
+  display: none;
+  position: fixed;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  z-index: 20;
+  top: 100px;
+  right: 40px;
+
+  ul li:first-of-type {
+    margin-top: 150px;
+  }
+
+  ul > li {
+    margin-bottom: 60px;
+    list-style-type: none;
+  }
+
+  ul > li a {
+    font-family: "PublicSansBold", sans-serif;
+    font-size: $fontsize-15;
+    letter-spacing: 2px;
+    color: $black-text;
+    text-decoration: none;
+    padding: 0.1rem 0.5rem;
+  }
+}
+
+//For Privacy & Policy screen
+.logoContainer {
+  display: flex;
+  padding-top: 70px;
+  padding-left: 30px;
+  align-items: flex-end;
+
+  .ampersandLogo {
+    max-width: 25px;
+    height: auto;
+  }
+
+  .sonsLogo {
+    max-width: 60px;
+  }
+}
+
+.privacy-section {
+  padding: 80px 30px 30px 30px;
+}
+@import "landing_mobile";
+@import "landing_tablet";
+@import "landing_desktop";

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.07" height="41.838" viewBox="0 0 34.07 41.838">
+  <g id="Group_527" data-name="Group 527" transform="translate(-1301.674 -8393.25)">
+    <path id="Icon_feather-shield" data-name="Icon feather-shield" d="M21.535,41.838S37.07,34.07,37.07,22.419V8.826L21.535,3,6,8.826V22.419C6,34.07,21.535,41.838,21.535,41.838Z" transform="translate(1297.174 8391.75)" fill="none" stroke="#ed9075" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Icon_ionic-md-lock" data-name="Icon ionic-md-lock" d="M18.066,8.892h-.808V7.276a4.041,4.041,0,0,0-8.083,0V8.892H8.367A1.621,1.621,0,0,0,6.75,10.509v8.083a1.621,1.621,0,0,0,1.617,1.617h9.7a1.621,1.621,0,0,0,1.617-1.617V10.509A1.621,1.621,0,0,0,18.066,8.892Zm-4.85,7.355a1.617,1.617,0,1,1,1.617-1.617A1.621,1.621,0,0,1,13.216,16.248Zm2.506-7.355H10.711V7.276a2.506,2.506,0,1,1,5.012,0Z" transform="translate(1305.845 8399.858)" fill="#ed9075"/>
+  </g>
+</svg>

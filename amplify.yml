@@ -1,0 +1,37 @@
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - nvm use $VERSION_NODE_14
+        - rm -rf node_modules && npm ci --production=false
+    build:
+      commands:
+        - echo "NODE_ENV=$NODE_ENV" >> .env
+        - echo "VUE_APP_API_BASE_URL=$VUE_APP_API_BASE_URL" >> .env
+        - echo "VUE_APP_BASE_URL_SITEMAP=$VUE_APP_BASE_URL_SITEMAP" >> .env
+        - echo "VUE_APP_BING_PIXEL_ID=$VUE_APP_BING_PIXEL_ID" >> .env
+        - echo "VUE_APP_ENVIRONMENT=$VUE_APP_ENVIRONMENT" >> .env
+        - echo "VUE_APP_EXCEPTION_EMAILS=$VUE_APP_EXCEPTION_EMAILS" >> .env
+        - echo "VUE_APP_FB_ID=$VUE_APP_FB_ID" >> .env
+        - echo "VUE_APP_FB_PIXEL=$VUE_APP_FB_PIXEL" >> .env
+        - echo "VUE_APP_GET_RESPONSE_BASE_URL=$VUE_APP_GET_RESPONSE_BASE_URL" >> .env
+        - echo "VUE_APP_GOOGLE_TAG_MANAGER=$VUE_APP_GOOGLE_TAG_MANAGER" >> .env
+        - echo "VUE_APP_INSIDER=$VUE_APP_INSIDER" >> .env
+        - echo "VUE_APP_INTERCOM=$VUE_APP_INTERCOM" >> .env
+        - echo "VUE_APP_INSIDER=$VUE_APP_INSIDER" >> .env
+        - echo "VUE_APP_LINK=$VUE_APP_LINK" >> .env
+        - echo "VUE_APP_S3_BUCKET=$VUE_APP_S3_BUCKET" >> .env
+        - echo "VUE_APP_SENTRY_AUTH_TOKEN=$VUE_APP_SENTRY_AUTH_TOKEN" >> .env
+        - echo "VUE_APP_SENTRY_DSN=$VUE_APP_SENTRY_DSN" >> .env
+        - echo "VUE_APP_SENTRY_ORG=$VUE_APP_SENTRY_ORG" >> .env
+        - echo "VUE_APP_SENTRY_PROJECT=$VUE_APP_SENTRY_PROJECT" >> .env
+        - echo "VUE_APP_SENTRY_RELEASE=$VUE_APP_SENTRY_RELEASE" >> .env
+        - echo "VUE_APP_STRIPE_PUBLISH_KEY=$VUE_APP_STRIPE_PUBLISH_KEY" >> .env
+        - echo "VUE_APP_TAPFILIATE=$VUE_APP_TAPFILIATE" >> .env
+        - echo "VUE_APP_TIKTOK_PIXEL_ID=$VUE_APP_TIKTOK_PIXEL_ID" >> .env
+        - echo "VUE_APP_WHATSAPP_NUMBER=$VUE_APP_WHATSAPP_NUMBER" >> .env
+        - if [ "${AWS_BRANCH}" = "master" ]; then npm run build:production; else npm run build:staging; fi
+  artifacts:
+    baseDirectory: dist
+    files:
+      - '**/*'

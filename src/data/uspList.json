@@ -1,0 +1,40 @@
+{
+  "usp": [
+    {
+      "type": "home",
+      "uspList": [
+        { "title": "Licensed Doctors", "icon": "usp–licenseddoctor.svg" },
+        { "title": "Registered Medications", "icon": "usp–approvedmedications.svg" },
+        { "title": "100% Online & Discreet", "icon": "how-it-works-freesessions.svg" },
+        { "title": "Free, Discreet 4-Hour Delivery", "icon": "how-it-works-dicreetdelivery.svg" }
+      ]
+    },
+    {
+      "type": "category",
+      "uspList": [
+        { "title": "Licensed Doctors", "icon": "usp–licenseddoctor.svg" },
+        { "title": "Online Consultations", "icon": "how-it-works-freesessions.svg"},
+        { "title": "Registered Medications", "icon": "usp–approvedmedications.svg"},
+        { "title": "Free, Discreet 4-Hour Delivery", "icon": "how-it-works-dicreetdelivery.svg" }
+      ]
+    },
+    {
+      "type": "supplements",
+      "uspList": [
+        { "title": "Non-GMO", "icon": "supplements/icon-non-gmo.svg" },
+        { "title": "Backed by Science", "icon": "usp–approvedmedications.svg" },
+        { "title": "Vegan", "icon": "how-it-works-freesessions.svg" },
+        { "title": "Made in SG", "icon": "how-it-works-dicreetdelivery.svg" }
+      ]
+    }
+  ],
+  "supplements": {
+    "type": "supplements",
+    "uspList": [
+      { "title": "Non-GMO", "icon": "supplements/icon-non-gmo.svg" },
+      { "title": "Formulated in the US", "icon": "supplements/icon-backed-by-science.svg" },
+      { "title": "Vegan", "icon": "supplements/icon-vegan.svg" },
+      { "title": "Made in Singapore", "icon": "supplements/icon-made-in-singapore.svg" }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+@include mediaMd {
+  html,
+  body > * {
+    font-size: 16px !important;
+  }
+
+  .burger-menu {
+    top: 80px !important;
+  }
+
+  //Landing Section
+  .flex-wrapper {
+    flex-direction: row !important;
+    padding-bottom: 4vw;
+  }
+
+  /*.landing {
+    .header-content {
+      max-width: 550px !important;
+      width: 55vw !important;
+      padding: 7rem 3rem 0 30px !important;
+      padding-left: calc(30px + 5vw) !important;
+    }
+  }*/
+
+  .content {
+    width: 85% !important;
+  }
+
+  .grid {
+    padding: 10rem 0 2rem 0 !important;
+    max-width: 50vw !important;
+  }
+
+  .hair-card,
+  .sex-card,
+  .skin-card,
+  .mind-card {
+    // height: 35vw !important;
+    // max-height: 80% !important;
+    width: 100%;
+  }
+
+  .hero {
+    margin-top: 0;
+  }
+
+  // .hero__description {
+  //   margin-top: 3rem !important;
+  // }
+
+  //Hair Section
+  .hair-images {
+    height: 40rem !important;
+
+    .left-clay {
+      max-width: 25rem !important;
+      transform: translate(-78%, 20%) !important;
+    }
+  }
+
+  //Additional Content
+  .additional-content {
+    padding: 2rem 5vw !important;
+  }
+
+  //Sex Section
+  .sex-images {
+    height: 30rem !important;
+  }
+
+  //Skin Section
+  .skin-images {
+    height: 40rem !important;
+  }
+
+  //Mind Section
+  .mind-images {
+    height: 37rem !important;
+  }
+
+  //Contact Section
+  .contact {
+    flex-direction: row !important;
+    margin-top: 4rem;
+
+    &__hero {
+      margin-top: -3rem;
+      width: 50vw !important;
+      height: 50vw !important;
+    }
+  }
+
+  .btn-submit {
+    justify-content: flex-start !important;
+  }
+
+  //Section Logos
+  //Floating Logo
+  .floating-logo {
+    left: calc(30px + 5vw);
+    max-width: 40px;
+  }
+
+  //Sons Logo
+  .sons-logo {
+    top: 82px !important;
+    max-width: 100px !important;
+    margin-left: calc(70px + 5vw) !important;
+  }
+
+  .hair-logo {
+    top: 49px !important;
+    max-width: 70px !important;
+    margin-left: calc(73px + 5vw) !important;
+
+    &-banner {
+      top: 91px !important;
+    }
+  }
+
+  .sex-logo {
+    top: 54px !important;
+    max-width: 80px !important;
+    margin-left: calc(69px + 5vw) !important;
+
+    &-banner {
+      top: 96px !important;
+    }
+  }
+
+  .skin-logo {
+    top: 48px !important;
+    max-width: 80px !important;
+    margin-left: calc(70px + 5vw) !important;
+
+    &-banner {
+      top: 91px !important;
+    }
+  }
+
+  .mind-logo {
+    top: 52px !important;
+    max-width: 80px !important;
+    margin-left: calc(72px + 5vw) !important;
+
+    &-banner {
+      top: 94px !important;
+    }
+  }
+
+  .split,
+  .divider {
+    padding-top: 2rem;
+  }
+
+  .social-section {
+    .card {
+      justify-content: center !important;
+    }
+  }
+
+  .logoContainer {
+    padding-left: calc(30px + 5vw) !important;
+
+    .ampersandLogo {
+      max-width: 40px !important;
+      height: auto;
+    }
+
+    .sonsLogo {
+      max-width: 100px !important;
+    }
+  }
+
+  .privacy-section {
+    padding: 80px calc(30px + 5vw) calc(30px + 5vw) calc(30px + 5vw);
+
+    p,
+    li {
+      font-size: 1.1rem !important;
+      line-height: 1.5rem !important;
+    }
+
+    h1 {
+      font-size: 2.5rem !important;
+    }
+
+    h2 {
+      font-size: 1.7rem !important;
+    }
+
+    h4 {
+      font-size: 1.3rem !important;
+    }
+  }
+
+  .header--text-style {
+    font-size: 12px !important;
+  }
+}

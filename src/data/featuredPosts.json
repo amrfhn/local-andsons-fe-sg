@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "url": "https://andsons.com.sg/blog/hair-loss-in-men/",
+      "date": "25 Nov 2021",
+      "title": "Hair Loss In Men: Things You Need To Know",
+      "description": "Hair loss in men is not an uncommon problem. Learn about the common causes, treatment options and also the common myths around it!",
+      "image": "feature_1.jpg",
+      "externalImage": false
+    },
+    {
+      "url": "https://andsons.com.sg/blog/hair-loss-in-men-products/",
+      "date": "28 Nov 2021",
+      "title": "How To Choose The Best Hair Loss Products For Men?",
+      "description": "Choosing the best hair loss products for men might get a tad bit overwhelming. Read about the factors you need to consider.",
+      "image": "feature_2.jpg",
+      "externalImage": false
+    },
+    {
+      "url": "https://andsons.com.sg/blog/erectile-dysfunction-causes/",
+      "date": "18 Oct 2021",
+      "title": "What Causes Erectile Dysfunction?",
+      "description": "Erectile dysfunction (ED) can have physical causes like nerve damage, reduced blood flow, hormonal issues, etc or even psychological causes. Learn more here!.",
+      "image": "feature_3.jpg",
+      "externalImage": false
+    }
+  ]
+}

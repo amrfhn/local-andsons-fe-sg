@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "img": "how-it-works-freesessions.svg",
+      "title": "Free Sessions",
+      "description": "Mental health is important, especially during this pandemic. Learn important coping strategies from therapists & psychiatrists."
+    },
+    {
+      "img": "how-it-works-anonymousandprivate.svg",
+      "title": "Anonymous & Private",
+      "description": "You have the option to join the support groups anonymously. Turn off your camera and use a nickname."
+    },
+    {
+      "img": "how-it-works-groupsupport.svg",
+      "title": "Group Support",
+      "description": "You're not alone in this journey, join others who share the same concerns and questions as you."
+    }
+  ]
+}

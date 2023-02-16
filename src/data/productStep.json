@@ -1,0 +1,96 @@
+{
+    "steps": [
+        {
+            "category": "prescription + subscription",
+            "data": [
+                {
+                    "img": "how-it-works-freesessions.svg",
+                    "alt": "Assessment",
+                    "title": "1. Take Medical Evaluation",
+                    "description": "Find the right treatment plan for yourself, tailored to your health and your needs."
+                },
+                {
+                    "img": "how-it-works-consultadoctor.svg",
+                    "alt": "Consult",
+                    "title": "2. Consult a Doctor",
+                    "description": "Speak to a doctor about your health condition and discuss your treatment options."
+                },
+                {
+                    "img": "how-it-works-dicreetdelivery.svg",
+                    "alt": "Delivery",
+                    "title": "3. Free, Discreet 4-Hour Delivery",
+                    "description": "Your treatment plan is delivered right to your doorstep within 4 hours. Designed for privacy. Free of charge."
+                }
+            ]
+        },
+        {
+            "category": "prescription only",
+            "data": [
+                {
+                    "img": "how-it-works-freesessions.svg",
+                    "alt": "Assessment",
+                    "title": "1. Take Medical Evaluation",
+                    "description": "Find the right treatment plan for yourself, tailored to your health and your needs."
+                },
+                {
+                    "img": "how-it-works-consultadoctor.svg",
+                    "alt": "Consult",
+                    "title": "2. Consult a Doctor",
+                    "description": "Speak to a doctor about your health condition and discuss your treatment options."
+                },
+                {
+                    "img": "how-it-works-dicreetdelivery.svg",
+                    "alt": "Delivery",
+                    "title": "3. Free, Discreet 4-Hour Delivery",
+                    "description": "Your treatment plan is delivered right to your doorstep within 4 hours. Designed for privacy. Free of charge."
+                }
+            ]
+        },
+        {
+            "category": "non-prescription",
+            "data": [
+                {
+                    "img": "how-it-works-freesessions.svg",
+                    "alt": "Assessment",
+                    "title": "1. Take Medical Evaluation",
+                    "description": "Find the right treatment plan for yourself, tailored to your health and your needs."
+                },
+                {
+                    "img": "how-it-works-consultadoctor.svg",
+                    "alt": "Consult",
+                    "title": "2. Consult a Doctor",
+                    "description": "Speak to a doctor about your health condition and discuss your treatment options."
+                },
+                {
+                    "img": "how-it-works-dicreetdelivery.svg",
+                    "alt": "Delivery",
+                    "title": "3. Free, Discreet 4-Hour Delivery",
+                    "description": "Your treatment plan is delivered right to your doorstep within 4 hours. Designed for privacy. Free of charge."
+                }
+            ]
+        },
+        {
+            "category": "landing page",
+            "data": [
+                {
+                    "img": "how-it-works-freesessions.svg",
+                    "alt": "Assessment",
+                    "title": "1. Take Medical Evaluation",
+                    "description": "Find the right treatment plan for yourself, tailored to your health and your needs."
+                },
+                {
+                    "img": "how-it-works-consultadoctor.svg",
+                    "alt": "Consult",
+                    "title": "2. Consult a Doctor",
+                    "description": "Speak to a doctor about your health condition and discuss your treatment options."
+                },
+                {
+                    "img": "how-it-works-dicreetdelivery.svg",
+                    "alt": "Delivery",
+                    "title": "3. Free, Discreet 4-Hour Delivery",
+                    "description": "Your treatment plan is delivered right to your doorstep within 4 hours. Designed for privacy. Free of charge."
+                }
+            ]
+        }
+    ]
+}

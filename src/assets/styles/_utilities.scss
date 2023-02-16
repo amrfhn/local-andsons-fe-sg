@@ -1,0 +1,46 @@
+@import '~vue-ionicons/ionicons.scss';
+
+.bg-white {
+  background-color: $white-background;
+}
+
+.bg-springwood {
+  background-color: $springwood-background;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.line-through{
+  text-decoration: line-through;
+}
+
+button[disabled] {
+  background: rgba(0, 0, 0, 0.5);
+  cursor: default;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input.input-without-arrow::-webkit-outer-spin-button,
+input.input-without-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input.input-without-arrow {
+  -moz-appearance: textfield;
+}
+
+.font-brand-extrabold {
+  font-family: 'PublicSansExtraBold', sans-serif;
+}

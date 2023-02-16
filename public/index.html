@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="title" content="Reimagining Men’s Health | andSons SG">
+  <meta name="description"
+    content="We’re solving age-old problems with 21st century solutions, making it easier for men to actively take care of their health and wellbeing.">
+  <meta name="keywords" content="andSons, Singapore, healthcare, men's health, treatment, medical, health care">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="language" content="English">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="google-site-verification" content="YDZAIxKaT_tQNTUYnFsjGDEg2W_MkjZyncwqwEuuUyU">
+
+  <title>Reimagining Men’s Health | andSons</title>
+  <link rel="shortcut icon" type="image/png" href="<%= BASE_URL %>favicon.png" />
+
+  <!-- <link rel="stylesheet" href="https://assets.reviews.io/css/widgets/carousel-widget.css?_t=2021092217">
+  <link rel="stylesheet" href="https://assets.reviews.io/iconfont/reviewsio-icons/style.css?_t=2021092217"> -->
+
+  <%= process.env.NODE_ENV==='production' ? '<script async src="//andsonssg.api.useinsider.com/ins.js?id=' + VUE_APP_INSIDER + '"></script>' : '' %>
+
+    <!-- Tapfiliate -->
+    <script src="https://script.tapfiliate.com/tapfiliate.js" type="text/javascript" async></script>
+    <script type="text/javascript">
+      (function (t, a, p) { t.TapfiliateObject = a; t[a] = t[a] || function () { (t[a].q = t[a].q || []).push(arguments) } })(window, 'tap');
+
+      tap('create', '<%= VUE_APP_TAPFILIATE %>', { integration: "javascript" });
+      tap('detect');
+    </script>
+    <!-- Tapfiliate -->
+
+    <!-- Intercom -->
+    <script>
+      (function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', w.intercomSettings); } else { var d = document; var i = function () { i.c(arguments); }; i.q = []; i.c = function (args) { i.q.push(args); }; w.Intercom = i; var l = function () { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/<%= VUE_APP_INTERCOM %>'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); }; if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })();
+    </script>
+    <!-- Intercom -->
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- <script src="https://widget.reviews.io/carousel-inline-iframeless/dist.js?_t=2021092217"></script> -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '<%= VUE_APP_FB_PIXEL %>');
+    fbq('track', 'PageView');
+  </script>
+
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=<%= VUE_APP_FB_PIXEL %>&ev=PageView&noscript=1" /></noscript>
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: '<%= VUE_APP_FB_ID %>',
+        autoLogAppEvents: true,
+        xfbml: true,
+        version: 'v9.0'
+      });
+    };
+  </script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+  <script src="https://apis.google.com/js/api:client.js"></script>
+
+  <!-- LightWidget Instagram -->
+  <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+  <!-- LightWidget Instagram -->
+
+  <script>
+    var googleUser = {};
+  </script>
+  <!-- <script type="text/javascript" src="https://app.getresponse.com/view_webform_v2.js?u=yYaTX&webforms_id=z2Ezn" data-webform-id="z2Ezn"></script> -->
+  <!-- built files will be auto injected -->
+  <noscript>
+    <strong>
+      We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.
+    </strong>
+  </noscript>
+  <script>(function (w, d, t, r, u) { var f, n, i; w[u] = w[u] || [], f = function () { var o = { ti: "<%= VUE_APP_BING_PIXEL_ID %>" }; o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad") }, n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function () { var s = this.readyState; s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null) }, i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i) })(window, document, "script", "//bat.bing.com/bat.js", "uetq");</script>
+  
+</body>
+
+</html>
